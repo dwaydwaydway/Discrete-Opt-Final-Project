@@ -10,4 +10,4 @@ In the heuristics.py file we present two heuristics: an LP-based and a greedy on
 
 In the read.py file we present some functions to read and produce the log files of the experiments we have conducted. 
 
-In the Complete_final_experiments folder are contained the log files of the experiments. There are 4 subfolders: Experiments for 1000 students, Experiments for 2000 students, the results of the Heuristics, the instances generated for each profile of parameters. 
+The experiments log files are contained in the zip folders. There are 5 folders: Log files of the mathematical models for 1000 and 2000 students, the log files of the Heuristics, the generated instances for 1000 and 2000 students.
