@@ -1,3 +1,7 @@
+Capacity expansion in the college admission problem
+
+Two mathematical programming methods (quadratic and linear) and two heuristics (LP-based and greedy) to solve the problem of expanding optimally capacities in the college admission process. The goal is to allocate optimally funding that expand the capacities of the universities. The objective function is the cost of the students, which we wish to minimize.
+
 This project contains the following python scripts and folders:
 
 1) An "__init__.py" script in which it is possible to run the aggregated linearization mathematical method.
