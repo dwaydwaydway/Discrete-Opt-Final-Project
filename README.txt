@@ -18,7 +18,7 @@ Moreover, we also provide the function "produce_data_table" that prints the data
 
 6) A "plot.py" script with the code needed to produce the plots.
 
-7) A "Data" folder, which contains the following sub-folders:
+7) Some data folders:
 	
 	7.A) "Experiments_n1=1000" contains the log.txt of the experiments that we have conducted with 1000 students
 
@@ -29,7 +29,8 @@ Moreover, we also provide the function "produce_data_table" that prints the data
 
 	7.D) "Histogram_data" contains the data about the computations made to produce the histogram.
 
- 	7.E) "Instances" contains all the instances of all the computations that we have made. To read an instance it suffices to run the following function:
+ 	7.E) "Instances XXXX students and YY universities" contains all the instances of all the computations that we have made. 
+		To read an instance it suffices to run the following function:
 
 		def read_instance(filename):
     			return np.load("Instances/"+filename+".npy", allow_pickle=True)
