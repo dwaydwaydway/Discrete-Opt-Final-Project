@@ -1,0 +1,14 @@
+Runtime: 0.046735286712646484
+solution: 1
+Runtime: 0.043996334075927734
+solution: 0
+Runtime: 0.05407071113586426
+solution: 1
+Runtime: 0.038297414779663086
+solution: 0
+Runtime: 0.16280126571655273
+solution: 0
+Runtime: 0.17887544631958008
+solution: 0
+Runtime: 0.03602313995361328
+solution: 0

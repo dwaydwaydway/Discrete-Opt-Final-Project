@@ -1,0 +1,59 @@
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:07:40 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.facility_loc_st100un5fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 106 rows, 505 columns and 1010 nonzeros
+Model fingerprint: 0xd72502eb
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.800000e+01   0.000000e+00      0s
+
+Solved in 18 iterations and 0.00 seconds (0.00 work units)
+Infeasible model
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 106 Constrs, 505 Vars, 1010 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 4 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 30 ]
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:10:48 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.facility_loc_st100un5fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 106 rows, 505 columns and 1010 nonzeros
+Model fingerprint: 0x9c44727a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.700000e+01   0.000000e+00      0s
+
+Solved in 15 iterations and 0.00 seconds (0.00 work units)
+Infeasible model
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 106 Constrs, 505 Vars, 1010 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 4 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 28 ]
+
+IIS computed: 106 constraints and 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)

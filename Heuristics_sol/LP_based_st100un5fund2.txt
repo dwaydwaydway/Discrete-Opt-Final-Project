@@ -1,0 +1,6 @@
+Runtime: 0.07157182693481445
+solution: 9
+Runtime: 0.029009342193603516
+solution: 21
+Runtime: 0.028599262237548828
+solution: 7

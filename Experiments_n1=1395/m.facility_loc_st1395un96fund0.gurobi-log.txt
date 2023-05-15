@@ -1,0 +1,839 @@
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 13:37:44 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xd88f74d9
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1536    2.0400000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1536 iterations and 0.24 seconds (0.14 work units)
+Optimal objective  2.040000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 31 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.23799991607666016
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 13:59:57 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.26 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.25799989700317383
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 14:02:10 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.30 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.29799985885620117
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 14:15:29 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.42 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.41699981689453125
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 14:22:39 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xd88f74d9
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1536    2.0400000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1536 iterations and 0.27 seconds (0.14 work units)
+Optimal objective  2.040000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 31 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.27500009536743164
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 14:23:29 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xd88f74d9
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1536    2.0400000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1536 iterations and 0.24 seconds (0.14 work units)
+Optimal objective  2.040000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 31 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.2390000820159912
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 15:06:35 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xa0780309
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    2168    4.1630000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 2168 iterations and 0.55 seconds (0.30 work units)
+Optimal objective  4.163000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 95 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.5529999732971191
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 15:20:56 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xa0780309
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    2168    4.1630000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 2168 iterations and 0.69 seconds (0.30 work units)
+Optimal objective  4.163000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 95 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.6889998912811279
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 15:27:47 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1491 rows, 133920 columns and 267840 nonzeros
+Model fingerprint: 0x8c3dfa74
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    2156    4.1740000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 2156 iterations and 0.81 seconds (0.31 work units)
+Optimal objective  4.174000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1491 Constrs, 133920 Vars, 267840 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 96 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 15:36:58 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x9dc75219
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    2168    4.1740000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 2168 iterations and 0.87 seconds (0.30 work units)
+Optimal objective  4.174000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 96 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.8650000095367432
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 16:45:20 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x9dc75219
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    2168    4.1740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 2168 iterations and 0.26 seconds (0.30 work units)
+Optimal objective  4.174000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 96 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.25999999046325684
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 16:46:19 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.21 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.20800018310546875
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 17:23:41 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.30 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.30299997329711914
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 17:45:26 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x8b27762c
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1515    2.2110000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1515 iterations and 0.41 seconds (0.18 work units)
+Optimal objective  2.211000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 68 ]
+Runtime: 0.4140000343322754
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 18:12:53 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xfdaa78b7
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1647    2.2210000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1647 iterations and 0.28 seconds (0.16 work units)
+Optimal objective  2.221000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 67 ]
+Runtime: 0.28299999237060547
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 18:43:37 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xb22e393a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1654    2.2480000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1654 iterations and 0.35 seconds (0.17 work units)
+Optimal objective  2.248000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 67 ]
+Runtime: 0.3510000705718994
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 19:11:45 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x74f0e9ff
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1430    2.2680000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1430 iterations and 0.23 seconds (0.11 work units)
+Optimal objective  2.268000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 66 ]
+Runtime: 0.22699999809265137
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 19:39:02 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x72c3d551
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.800000e+02   0.000000e+00      0s
+    1498    2.2740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1498 iterations and 0.22 seconds (0.11 work units)
+Optimal objective  2.274000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 65 ]
+Runtime: 0.2220001220703125
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 20:06:11 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xf7f7957b
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.830000e+02   0.000000e+00      0s
+    1579    2.3000000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1579 iterations and 0.25 seconds (0.12 work units)
+Optimal objective  2.300000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 65 ]
+Runtime: 0.24900007247924805
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 21:11:26 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xb9a6a282
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.870000e+02   0.000000e+00      0s
+    1859    2.3410000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1859 iterations and 0.32 seconds (0.24 work units)
+Optimal objective  2.341000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 64 ]
+Runtime: 0.31999993324279785
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 22:19:30 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x7745991b
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.900000e+02   0.000000e+00      0s
+    1652    2.3720000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1652 iterations and 0.16 seconds (0.14 work units)
+Optimal objective  2.372000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 63 ]
+Runtime: 0.16200017929077148
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 23:00:05 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x5f1254dd
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.900000e+02   0.000000e+00      0s
+    1836    2.3780000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1836 iterations and 0.29 seconds (0.19 work units)
+Optimal objective  2.378000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 63 ]
+Runtime: 0.2909998893737793
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 23:26:23 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x08e2b5d5
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.990000e+02   0.000000e+00      0s
+    1801    2.4260000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1801 iterations and 0.35 seconds (0.21 work units)
+Optimal objective  2.426000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 62 ]
+Runtime: 0.3489999771118164
+
+Gurobi 10.0.1 (win64) logging started Thu May  4 23:51:05 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xbfab62ae
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.060000e+02   0.000000e+00      0s
+    1792    2.4690000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1792 iterations and 0.28 seconds (0.17 work units)
+Optimal objective  2.469000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 61 ]
+Runtime: 0.27699995040893555
+
+Gurobi 10.0.1 (win64) logging started Fri May  5 13:15:46 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xcce82c92
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.060000e+02   0.000000e+00      0s
+    1814    2.4850000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 1814 iterations and 0.62 seconds (0.22 work units)
+Optimal objective  2.485000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 61 ]
+Runtime: 0.6180000305175781
+
+Gurobi 10.0.1 (win64) logging started Fri May  5 14:49:00 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0xcce82c92
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.060000e+02   0.000000e+00      0s
+    1814    2.4850000e+03   0.000000e+00   0.000000e+00      1s
+
+Solved in 1814 iterations and 0.67 seconds (0.22 work units)
+Optimal objective  2.485000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 61 ]
+Runtime: 0.6699998378753662
+
+Gurobi 10.0.1 (win64) logging started Sun May  7 00:33:39 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x1a5c792f
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.060000e+02   0.000000e+00      0s
+    1918    2.4970000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 1918 iterations and 0.28 seconds (0.19 work units)
+Optimal objective  2.497000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 60 ]
+Runtime: 0.2779998779296875
+
+Gurobi 10.0.1 (win64) logging started Sun May  7 00:58:59 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=1395\m.facility_loc_st1395un96fund0.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 1492 rows, 134016 columns and 268032 nonzeros
+Model fingerprint: 0x0ff5c21b
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.130000e+02   0.000000e+00      0s
+    2011    2.5600000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 2011 iterations and 0.35 seconds (0.21 work units)
+Optimal objective  2.560000000e+03
+
+Statistics for modelfacility_loc:
+  Linear constraint matrix    : 1492 Constrs, 134016 Vars, 268032 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 32 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 59 ]
+Runtime: 0.3540000915527344

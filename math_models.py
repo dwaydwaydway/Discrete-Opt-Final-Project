@@ -9,10 +9,10 @@ import gurobipy as grb
 # project libraries
 import heuristics as heur
 
+import ipdb
 
 
-
-def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary = False):
+def miqp(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund, binary = False):
     name= 'miqp'    
 
     model = grb.Model(f'{name}')
@@ -23,7 +23,7 @@ def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary 
     gamma = list(itertools.product(range(n1),range(n2)))
     
     # retrieve warm-up solution from the best of the two heuristics (LP-based and greedy)
-    x_warm, t_warm = heur.add_bound(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund)
+    x_warm, t_warm = heur.add_bound(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund)
 
     # add allocation vars              
     x = { key: model.addVar(lb=0, ub=1.0, name=f"x_{key[0]}_{key[1]}", vtype=grb.GRB.BINARY) for key in gamma }
@@ -35,15 +35,18 @@ def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary 
         var_type = grb.GRB.BINARY
     else:
         var_type = grb.GRB.INTEGER
-    t = { uni : model.addVar(lb = 0, ub = fund, name = f"t_{uni}", vtype = var_type) for uni in range(n2) }
+    if fund >= 0:
+        t = { uni : model.addVar(lb = 0, ub = fund, name = f"t_{uni}", vtype = var_type) for uni in range(n2) }
+    else:
+        t = { uni : model.addVar(lb = fund, ub = 0, name = f"t_{uni}", vtype = var_type) for uni in range(n2) }
+
     for i in range(n2):
         t[i].start = t_warm[i]
-
     # add objective    
     model.ModelSense = +1 # maximize: -1; minimize: +1
     model.setObjective(
         grb.quicksum([
-            x[i,j]*(len(S[i][j])-1) for i in range(n1) for j in range(n2)
+            x[i,j]*(s_cost[i][j]-1) for i in range(n1) for j in range(n2)
         ])
     )
 
@@ -53,10 +56,13 @@ def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary 
 
     # add hospital capacity consts 
     for j in range(n2):
-        model.addLConstr( grb.quicksum(x[i,j] for i in range(n1)) -t[j] <=  capacities[j])
-
-    # add funding consts
-    model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
+        model.addLConstr(grb.quicksum(x[i,j] for i in range(n1)) - t[j] <=  capacities[j])
+    
+    if fund >= 0 :
+        # add funding consts
+        model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
+    else:
+        model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
     
     # add stability quadratic consts 
     for i,j in gamma:
@@ -71,7 +77,6 @@ def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary 
     model.setParam('LogFile', current_path+f'\Experiments_n1={n1}\m.{experiment_name}.gurobi-log.txt')
     model.optimize()
     model.printStats()
-
     data = [model.ObjVal, model.Runtime, model.Status, np.reshape(model.getAttr(grb.GRB.Attr.X)[:n1*n2],(n1,n2)), 
             np.reshape(model.getAttr(grb.GRB.Attr.X)[n1*n2:n1*n2+n2],(n2)) ]
     
@@ -87,7 +92,7 @@ def miqp(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary 
 
 
 
-def McC_agg(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary = False):
+def McC_agg(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund, binary = False):
     name= 'McC_agg'
     model = grb.Model(f'{name}')
     model.setParam('OutputFlag', True )
@@ -97,7 +102,7 @@ def McC_agg(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, bina
     gamma = list(itertools.product(range(n1),range(n2)))
     
     # retrieve warm-up solution from the best of the two heuristics (LP-based and greedy)
-    x_warm, t_warm = heur.add_bound(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund)
+    x_warm, t_warm = heur.add_bound(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund)
 
     # add allocation vars           
     x = { key: model.addVar(lb=0, ub=1.0, name=f"x_{key[0]}_{key[1]}", vtype=grb.GRB.BINARY)
@@ -156,7 +161,8 @@ def McC_agg(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, bina
     model.setParam('LogFile', current_path+f'\Experiments_n1={n1}\m.{experiment_name}.gurobi-log.txt')
     model.optimize()
     model.printStats()
-
+    print("mdl.getVars(): ")
+    print(model.getVars())
     data = [model.ObjVal, model.Runtime, model.Status, np.reshape(model.getAttr(grb.GRB.Attr.X)[:n1*n2],(n1,n2)), 
             np.reshape(model.getAttr(grb.GRB.Attr.X)[n1*n2:n1*n2+n2],(n2)) ]
     

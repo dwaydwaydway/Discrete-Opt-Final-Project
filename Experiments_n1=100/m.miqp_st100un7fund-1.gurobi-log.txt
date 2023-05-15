@@ -1,0 +1,83 @@
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:30:12 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-1.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0xcf94e21e
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 2e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+  QRHS range       [1e+01, 2e+01]
+
+Loaded user MIP start with objective 47
+
+Presolve added 77 rows and 0 columns
+Presolve removed 0 rows and 101 columns
+Presolve time: 0.04s
+Presolved: 2984 rows, 2895 columns, 37213 nonzeros
+Variable types: 0 continuous, 2895 integer (2888 binary)
+
+Root relaxation: objective 2.461747e+01, 140 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.61747    0   49   47.00000   24.61747  47.6%     -    0s
+     0     0   29.06206    0   38   47.00000   29.06206  38.2%     -    0s
+     0     0   29.16825    0   34   47.00000   29.16825  37.9%     -    0s
+     0     0   31.30882    0   51   47.00000   31.30882  33.4%     -    0s
+     0     0   31.30882    0   51   47.00000   31.30882  33.4%     -    0s
+     0     0   31.52576    0   50   47.00000   31.52576  32.9%     -    0s
+     0     0   31.79528    0   59   47.00000   31.79528  32.4%     -    0s
+     0     0   31.80981    0   56   47.00000   31.80981  32.3%     -    0s
+     0     0   36.28487    0   47   47.00000   36.28487  22.8%     -    0s
+     0     0   36.49484    0   52   47.00000   36.49484  22.4%     -    0s
+     0     0   36.85859    0   52   47.00000   36.85859  21.6%     -    0s
+     0     0   36.91718    0   53   47.00000   36.91718  21.5%     -    0s
+     0     0   38.56280    0   64   47.00000   38.56280  18.0%     -    0s
+     0     0   38.80499    0   53   47.00000   38.80499  17.4%     -    0s
+     0     0   39.56111    0   57   47.00000   39.56111  15.8%     -    0s
+     0     0   39.71507    0   63   47.00000   39.71507  15.5%     -    0s
+     0     0   41.44186    0   56   47.00000   41.44186  11.8%     -    0s
+     0     0     cutoff    0        47.00000   47.00000  0.00%     -    0s
+
+Cutting planes:
+  Learned: 6
+  Cover: 13
+  Implied bound: 2
+  Clique: 4
+  MIR: 17
+  StrongCG: 2
+  Zero half: 1
+  RLT: 7
+  BQP: 1
+
+Explored 1 nodes (625 simplex iterations) in 0.41 seconds (0.18 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 47 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.700000000000e+01, best bound 4.700000000000e+01, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 21 ]
+Runtime: 0.4100000858306885

@@ -1,0 +1,313 @@
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:32:12 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0x7274b5fa
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 3e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+  QRHS range       [2e+01, 3e+01]
+
+Loaded user MIP start with objective 1
+
+Presolve removed 107 rows and 701 columns
+Presolve time: 0.04s
+Presolved: 1 rows, 6 columns, 6 nonzeros
+Variable types: 0 continuous, 6 integer (0 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds (0.02 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 25 ]
+Runtime: 0.04999995231628418
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:36:01 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0x4609c850
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 2e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 2e+01]
+  QRHS range       [2e+01, 2e+01]
+
+Loaded user MIP start with objective 0
+
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 23 ]
+Runtime: 0.005000114440917969
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:36:31 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0xe219685d
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 3e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+  QRHS range       [1e+01, 3e+01]
+
+Loaded user MIP start with objective 1
+
+Presolve removed 108 rows and 707 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 32 ]
+Runtime: 0.03800010681152344
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 13:40:05 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0x9e1794b3
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 2e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 2e+01]
+  QRHS range       [2e+01, 2e+01]
+
+Loaded user MIP start with objective 0
+
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 23 ]
+Runtime: 0.006000041961669922
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 14:06:12 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0x1d34cf03
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 3e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+  QRHS range       [1e+01, 3e+01]
+
+Loaded user MIP start with objective 0
+
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 28 ]
+Runtime: 0.02500009536743164
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 14:07:22 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0x1d34cf03
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 3e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+  QRHS range       [1e+01, 3e+01]
+
+Loaded user MIP start with objective 0
+
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 28 ]
+Runtime: 0.01900005340576172
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 14:26:47 2023
+
+Set parameter LogFile to value "C:\Users\tim87\Desktop\cornell\spring23\Discrete Optimization\final\Capacity-expansion-in-the-college-admission-problem\Experiments_n1=100\m.miqp_st100un7fund-2.gurobi-log.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1180G7 @ 1.30GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 1 threads
+
+Optimize a model with 108 rows, 707 columns and 1414 nonzeros
+Model fingerprint: 0xbef1b8ce
+Model has 700 quadratic constraints
+Variable types: 0 continuous, 707 integer (700 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 3e+01]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 3e+01]
+  QRHS range       [1e+01, 3e+01]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint R100 by 0.220000000
+
+Presolve added 63 rows and 0 columns
+Presolve removed 0 rows and 147 columns
+Presolve time: 0.06s
+Presolved: 2745 rows, 2666 columns, 32495 nonzeros
+Variable types: 0 continuous, 2666 integer (546 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds (0.04 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Statistics for modelmiqp:
+  Linear constraint matrix    : 108 Constrs, 707 Vars, 1414 NZs
+  Variable types              : 0 Continuous,
+707 Integer (700 Binary)
+  Quadratic constraints       : 700 Constrs, 40950 NZs
+  Matrix coefficient range    : [ 1, 1 ]
+  Objective coefficient range : [ 1, 6 ]
+  Variable bound range        : [ 1, 2 ]
+  RHS coefficient range       : [ 1, 27.72 ]

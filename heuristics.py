@@ -11,7 +11,7 @@ import gurobipy as grb
 
 
 
-def facility_location(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary = False):
+def facility_location(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund, binary = False):
     name= 'facility_loc'
     model = grb.Model(f'{name}')
     model.setParam('OutputFlag', True )
@@ -29,13 +29,15 @@ def facility_location(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, 
         var_bound = 1
     else:
         var_bound = fund
-    t = { uni : model.addVar(lb = 0, ub = var_bound, name = f"t_{uni}", vtype = grb.GRB.CONTINUOUS) for uni in range(n2) }
-    
+    if fund >= 0:
+        t = { uni : model.addVar(lb = 0, ub = var_bound, name = f"t_{uni}", vtype = grb.GRB.CONTINUOUS) for uni in range(n2) }
+    else:
+        t = { uni : model.addVar(lb = var_bound, ub = 0, name = f"t_{uni}", vtype = grb.GRB.CONTINUOUS) for uni in range(n2) }
     # set objective
     model.ModelSense = +1 # maximize: -1; minimize: +1
     model.setObjective(
         grb.quicksum([
-            x[i,j]*(len(S[i][j])-1) for i in range(n1) for j in range(n2)
+            x[i,j]*(s_cost[i][j]-1) for i in range(n1) for j in range(n2)
         ])
     )
 
@@ -45,11 +47,13 @@ def facility_location(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, 
         
     # add hospital capacity consts
     for j in range(n2):
-        model.addLConstr( grb.quicksum(x[i,j] for i in range(n1)) -t[j] <=  capacities[j]) 
-
+        model.addLConstr(grb.quicksum(x[i,j] for i in range(n1)) - t[j] <=  capacities[j]) 
     # add funding consts 
-    model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
-    
+    if fund >= 0:
+        model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
+    else:
+        # add funding consts 
+        model.addLConstr(grb.quicksum(t[u] for u in range(n2)) <= fund)
     # solving and recording data
     current_path = os.getcwd()
     if not os.path.exists(current_path+f'\Experiments_n1={n1}'):
@@ -62,7 +66,7 @@ def facility_location(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, 
 
     data = [model.ObjVal, model.Runtime, model.Status, np.reshape(model.getAttr(grb.GRB.Attr.X)[:n1*n2],(n1,n2)), 
             np.reshape(model.getAttr(grb.GRB.Attr.X)[n1*n2:n1*n2+n2],(n2)), model.NumIntVars]
-    
+
     filedata = open(current_path+f'\Experiments_n1={n1}\m.{experiment_name}.gurobi-log.txt', 'a')
     print(f'Runtime: {model.Runtime}',file=filedata)
     filedata.close()
@@ -81,9 +85,9 @@ def stable_with_extra(n2, capacities, alloc, resident_prefs, hospital_prefs):
 
 
 
-def LP_based_heuristic(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund):
+def LP_based_heuristic(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund):
     
-    allocation = facility_location(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund, binary = False)
+    allocation = facility_location(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund, binary = False)
         
     results = stable_with_extra(n2,capacities, allocation[0], resident_prefs, hospital_prefs)
     obj_value = results[1]
@@ -111,7 +115,7 @@ def greedy_approach(n2, resident_prefs, hospital_prefs, fund, capacities):
 
     else:
     
-        for i in range(fund):
+        for i in range(abs(fund)):
             # initialization
             temp_alloc = np.zeros(n2)
             matchings = dict()
@@ -121,16 +125,23 @@ def greedy_approach(n2, resident_prefs, hospital_prefs, fund, capacities):
             for h in range(n2):
                 aux_capacities = np.zeros(n2)
                 aux_capacities = [capacities[u]+allocation[u] for u in range(n2)]
-                aux_capacities[h] += 1
+                if fund >= 0:
+                    aux_capacities[h] += 1
+                else:
+                    aux_capacities[h] -= 1
+
                 aux_game = HospitalResident.create_from_dictionaries(resident_prefs, hospital_prefs, aux_capacities)
                 aux_matching = aux_game.solve(optimal="resident")
                 matchings[h] = aux_matching
                 temp_alloc[h] = sum([sum([list(resident_prefs[r.name]).index(item1.name) for r in item2]) for item1,item2 in aux_matching.items()])
 
             index = np.argmin(temp_alloc)
-            allocation[index] += 1
+            if fund >= 0:
+                allocation[index] += 1
+            else:
+                allocation[index] -= 1
 
-            if i == fund-1 :
+            if i == abs(fund)-1 :
                 obj_val = temp_alloc[index]
                 chosen_matching = matchings[index]
             else:
@@ -159,13 +170,13 @@ def unravel_matching(assignment, gamma):
     return solution
     
 
-def add_bound(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund):
+def add_bound(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund):
     current_path = os.getcwd()
     if not os.path.exists(current_path+f'\Heuristics_sol'):
         os.makedirs(current_path+f'\Heuristics_sol')
         
     start_LP_based = time.time()
-    LP_based_sol = LP_based_heuristic(n1, n2, resident_prefs, hospital_prefs, S, T, capacities, fund)
+    LP_based_sol = LP_based_heuristic(n1, n2, resident_prefs, hospital_prefs, S, s_cost, T, capacities, fund)
     end_LP_based = time.time()
     experiment_name = f'LP_based_st{n1}un{n2}fund{fund}'
     filedata = open(current_path+f'\Heuristics_sol\\{experiment_name}.txt', 'a')
